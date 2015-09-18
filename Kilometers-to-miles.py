@@ -6,6 +6,6 @@ __author__ = 'Ethan Richards'
 def main():
     K = eval(input("Enter a distance in Kilometers."))
     M = (K * 0.621371) 
-    print(K,"Kilometers is",M,"Miles.")
+    print("{} Kilometer(s) is {:.2f} Miles.".format(K,M))
     
 main()

@@ -8,5 +8,5 @@ __author__ = 'Ethan Richards'
 def main(): 
     F = eval(input("Input a temperature in Fahrenheit:"))
     C = (F-32) * (5/9)
-    print(F, "in Fahrenheit is", C, "in Celcius.")
+    print("{} in Fahrenheit is {:.1f} in Celcius.".format(F,C))
 main()
